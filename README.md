@@ -1,0 +1,1 @@
+This repository demonstrates a subtle data race bug in Rust that can occur when using raw pointers to access vector elements. The bug arises when directly manipulating vector memory outside the bounds of Rust's safe memory management features.  The solution showcases safer alternatives using Rust's standard library.
